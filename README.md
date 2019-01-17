@@ -1,1 +1,3 @@
-This is where I'll store all the python morsels 
+#Title
+These exercises were downloaded from youtube PYCON 2018
+
