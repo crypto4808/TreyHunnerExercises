@@ -1,0 +1,32 @@
+git config --global user.name "Sand NC"
+git config --global user.email sandman2145@gmail.com
+
+git remote add origin https://github.com/fuzion1029/TreyHunnerExercises.git
+
+git branch experimental
+
+git branch 
+you'll get a list of all existing branches:
+
+             experimental
+           * master
+
+     to switch to the experimental branch. Now edit a file, commit the
+       change, and switch back to the master branch:
+
+           (edit file)
+           $ git commit -a
+           $ git checkout master
+
+$ git merge experimental
+
+git diff
+
+
+
+echo "# TreyHunnerExercises" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/fuzion1029/TreyHunnerExercises.git
+git push -u origin master
